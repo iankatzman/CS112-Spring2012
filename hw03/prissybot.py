@@ -1,48 +1,38 @@
 #!/usr/bin/env python
-"""
-prissybot.py
+print "Hello! I am Prissy Bot! What is your name?"
+name=raw_input ()
 
-CS112 Homework 3:   PrissyBot
+print "You mean, Hi bot,sir",name
 
-Prissy bot, the rude chat bot, is just mean!  It does not listen, asks obnoxious questions, and says anything it likes.
-"""
+print "Why would you be so uncouth my good friend?"
+response=raw_input ()
 
-# Step 1:
-# -----------------------
-# Program the following.
-# 
-#    $ python prissybot.py
-#    Enter your name:  Paul
-#   
-#    PrissyBot: Hello there, Paul
-#    Paul: hi bot
-#    PrissyBot: You mean, "hi bot, sir!"
-# 
-# Make sure the user inputs their own name and responses.
+print "well my good man that is hardly a proper excuse"
 
+print "But I guess that's about the level of sophistication I have come to expect from meat wads like you"
 
+print "So why are you here again, math or something???" ,name
 
-# Step 2:
-# -----------------------
-# Keep adding to the conversation. Make sure that your program 
-# includes the following:
-# 
-#  * get and use input from the user
-#  * 3 math problems
-#     * at least one should get numbers from the user
-#  * at least 3 insults
+print "Is this okay with you" ,name
+mathanswer=raw_input()
 
+print "Alright give me a number and we will get starteds"
 
-# Advanced
-# -------------------------
-# Make sure your prissy bot uses string formatting throughout.  
-# Also, create new programs for the following:
-#  
-#  1. draw some kind of ascii art based on user input
-#  2. print a decimal/binary/hexidecimal conversion table 
-#     * well formated and labeled
-#     * reads 5 numbers from the input (all less than 256)
-#  3. reduce a fraction
-#     * read a numerator and denominator from the user
-#     * ex.  6/4 = 1 2/4
+print "Enter a number:"
+n=raw_input ()
+
+print "Enter another number:"
+m=raw_input ()
+
+n=int(n)
+m=float(m)
+
+print n,"+",m,"=",n+m
+print n,"-",m,"=",n-m
+print n,"*",m,"=",n*m
+print n,"/",m,"=",n/m
+
+print "Wow that must have been really difficult typing in those numbers and everything. I hope your happy."
+
+print "Now go away."
 
