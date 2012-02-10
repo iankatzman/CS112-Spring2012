@@ -5,9 +5,10 @@ print "Section 2:  Loops"
 print "-----------------------------"
 
 # 1. Keep getting a number from the input (num) until it is a multiple of 3.
-num = 0
-
-print "1.", num
+print "1.",
+num = float(raw_input("Enter a number that is divisible by 3!!:"))
+while (num%3) !=0:
+    num = float(raw_input('Please try again: '))
 
 # 2. Countdown from the given number to 0 by threes. 
 #    Example:
@@ -17,8 +18,12 @@ print "1.", num
 #      3...
 #      0
 
-print "2. Countdown from", num
-#CODE GOES HERE
+print "2. Countdown from",
+while num>0:
+    print num
+    num-=3
+print"And there you have it, good sir. ^^"
+
 
 
 # 3. [ADVANCED] Get another num.  If num is a multiple of 3, countdown 
